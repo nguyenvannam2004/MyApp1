@@ -10,7 +10,7 @@ from imblearn.over_sampling import SMOTE
 import numpy as np
 
 # Bước 1: Đọc dữ liệu bệnh tim từ file CSV 
-data = pd.read_csv('./mynewdata.csv')
+data = pd.read_csv('D:/data_hocmay/mynewdata.csv')
 data.drop([0, 1, 2])  # Xóa các dòng không cần thiết
 # Bước 2: Xem trước dữ liệu
 #print(data.head())
