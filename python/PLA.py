@@ -7,7 +7,7 @@ from sklearn.metrics import accuracy_score, confusion_matrix, classification_rep
 from imblearn.over_sampling import SMOTE
 
 # Tải dữ liệu
-df = pd.read_csv('./mynewdata.csv')
+df = pd.read_csv('D:/data_hocmay/mynewdata.csv')
 df = df.drop([0, 1, 2])  # Xóa 3 dòng dữ liệu đầu để cho đủ 300 mẫu
 
 # Tách dữ liệu và nhãn
