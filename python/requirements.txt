@@ -2,3 +2,4 @@ streamlit
 flask
 pandas
 joblib
+flask-cors
