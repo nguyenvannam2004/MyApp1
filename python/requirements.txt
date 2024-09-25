@@ -5,4 +5,13 @@ joblib
 flask-cors
 scikit-learn
 SMOTE
+imbalanced-learn
+numpy
+matplotlib
+plotly
+tensorflow
+torch
+requests
+
+
 
