@@ -4,4 +4,5 @@ pandas
 joblib
 flask-cors
 scikit-learn
+SMOTE
 
