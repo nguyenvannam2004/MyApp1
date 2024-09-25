@@ -3,3 +3,10 @@ flask
 pandas
 joblib
 flask-cors
+scikit-learn
+seaborn
+matplotlib.pyplot
+sklearn.model_selection
+sklearn.linear_model
+SMOTE
+LogisticRegression
