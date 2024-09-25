@@ -5,7 +5,7 @@ from sklearn.model_selection import train_test_split
 from imblearn.over_sampling import SMOTE
 
 # Bước 1: Đọc dữ liệu bệnh tim từ file CSV 
-data = pd.read_csv('./mynewdata.csv')
+data = pd.read_csv('D:/data_hocmay/mynewdata.csv')
 
 # Giả sử các đặc trưng (feature) của bạn là các cột từ 0 đến -1 và cột đích là 'target'
 X = data.drop(columns=['target', 'STT']).values  # Các đặc trưng đầu vào
